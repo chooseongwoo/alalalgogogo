@@ -1,6 +1,8 @@
 a, b = map(int, input().split())
 
-while a<90:
-    a+=5
-    b+=1
+if a==90:
+    pass
+else:
+    b = b + (1 + (89-a)//5)
+
 print(b)
