@@ -1,7 +1,7 @@
 zero = [[0]*19 for i in range(19)]
 
 a = int(input())
-for i in range(a):
+for i in range(19):
     b,c=map(int,input().split())
     zero[b-1][c-1] = 1
 for i in range(19):
