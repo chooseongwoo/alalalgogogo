@@ -1,7 +1,6 @@
 n = []
 for i in range(10):
     a = int(input())
-    b = a%42
-    n.append(b)
-s = set(n)
-print(len(s))
+    if a%42 not in n:
+        n.append(a%42)
+print(len(n))
