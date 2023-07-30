@@ -1,6 +1,7 @@
-# 리스트의 모든 원소를 enumerate() 함수로 스캔하기(1부터 카운트)
+# 리스트의 모든 원소를 스캔하기(인덱스 값을 사용하지 않음)
 
 x= ['John', 'George', 'Paul', 'Ringo']
 
-for i, name in enumerate(x,1):
-    print(f'{i}번째 = {name}')
+
+for i in x:
+    print(i)
