@@ -12,7 +12,7 @@ for n in range(3, 1001, 2): # 홀수만을 대상으로 설정
         counter += 1
         if n % prime[i] == 0:
             break
-    else: # 끝까지 나누어 떨어지지 않아다면
+    else: # 끝까지 나누어 떨어지지 않았다면
         prime[ptr] = n # 소수로 배열에 등록
         ptr += 1
 
