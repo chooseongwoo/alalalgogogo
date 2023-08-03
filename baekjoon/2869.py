@@ -1,10 +1,7 @@
 a, b, v = map(int, input().split())
-n = 0
-cnt = 0
-while True:
-    n += a
-    cnt += 1
-    if n >= v:
-        break
-    n -= b
-print(cnt)
+
+x = (v-b)/(a-b)
+if x == int(x):
+    print(int(x))
+else:
+    print(int(x)+1)
