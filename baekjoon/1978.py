@@ -8,6 +8,6 @@ for i in lst:
     for j in range(2, i+1):
         if i % j == 0:
             if i == j:
-                break
-            cnt += 1
+                cnt += 1
+            break
 print(cnt)
