@@ -6,4 +6,4 @@ for i in range(2, n + 1):
 if cnt >= 2:
     print('not prime')
 else:
-    print('prime')
+    print('prime') 
