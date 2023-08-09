@@ -5,4 +5,4 @@ for i in range(n):
         k = n - i**2
         t = i
         break
-print(k,t)
+print(k, t)
