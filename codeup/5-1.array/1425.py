@@ -3,9 +3,9 @@ students = list(map(int, input().split()))
 
 students.sort()
 
-for i in range(0, int(n/c)+1):
-    for j in range(i*c, i*c+c):
-        if j >= len(students):
+for i in range((n // c) + 1):
+    for j in range(c * i, c * i + c):
+        if j > len(students):
             break
         print(students[j], end=' ')
     print()
